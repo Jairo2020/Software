@@ -91,7 +91,6 @@ class Application:
                                 command=self.print_baudrate(self.Com.get(), self.baudlist.get()))
         self.aceptar.place(x=500, y=20)
 
-
         # barra de progreso
 
         # self.progreso=ttk.Progressbar(screen_config,
@@ -110,7 +109,7 @@ class Application:
         # print(ser.name)
         # print(ser.baudrate)
         #print(ncom+" :"+baud_rate)
-        print(self.Com.get())
+
         self.mosCom.configure(text=ncom)
         self.mosCom.pack()
         # self.bar(screen_config)
